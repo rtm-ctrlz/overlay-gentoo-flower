@@ -1,0 +1,9 @@
+--- ./libhsclient/fatal.cpp	2011-01-10 13:39:35 +0000
++++ ./libhsclient/fatal.cpp	2012-07-31 23:36:53 +0000
+@@ -9,6 +9,7 @@
+ #include <stdlib.h>
+ #include <stdio.h>
+ #include <syslog.h>
++#include <unistd.h>
+
+ #include "fatal.hpp"

@@ -1,0 +1,11 @@
+--- ./configure.ac.old	2014-06-08 16:49:35.000000000 +0000
++++ ./configure.ac	2014-06-08 16:49:59.405388052 +0000
+@@ -8,6 +8,8 @@
+ AC_CONFIG_SRCDIR([libhsclient/fatal.cpp])
+ AC_CONFIG_MACRO_DIR([m4])
+ 
++AM_PROG_AR([m4])
++
+ AC_PROG_CC
+ AC_PROG_CXX
+ AC_PROG_CPP
