@@ -4,16 +4,16 @@
 
 EAPI="5"
 
-EGIT_REPO_URI="http://github.com/ahiguti/HandlerSocket-Plugin-for-MySQL.git"
+EGIT_REPO_URI="http://github.com/DeNA/HandlerSocket-Plugin-for-MySQL.git"
 inherit autotools git-2
 
 DESCRIPTION="HandlerSocket Plugin for MySQL"
-HOMEPAGE="http://github.com/ahiguti/HandlerSocket-Plugin-for-MySQL"
+HOMEPAGE="http://github.com/DeNA/HandlerSocket-Plugin-for-MySQL"
 SRC_URI=""
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="virtual/mysql"
